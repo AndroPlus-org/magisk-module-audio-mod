@@ -11,8 +11,9 @@ function getActivePolicyFile()
 
 # Board name e.g. "_cape"
 BOARD=$(getprop ro.media.xml_variant.codecs)
+FIRSTAPI=$(getprop ro.product.first_api_level)
 
-if [ $API -ge 31 ] ; then
+if [ $FIRSTAPI -ge 31 ] ; then
 	#Android 12 and later
 	SEP=" "
 else

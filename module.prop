@@ -1,0 +1,6 @@
+id=audio-mod-snapdragon
+name=Audio patch for Snapdragon
+version=v1
+versionCode=1
+author=AndroPlus
+description=Audio patch for Snapdragon / Android 12+ devices.
